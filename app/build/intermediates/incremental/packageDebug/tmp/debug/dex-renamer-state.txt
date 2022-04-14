@@ -1,0 +1,4 @@
+#Thu Apr 14 11:25:38 PDT 2022
+base.0=/Users/kristineumeh/Desktop/Android-Attendance-App-master/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

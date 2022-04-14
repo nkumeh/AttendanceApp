@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/buttonaddfaculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="#FFFDFE"
+            android:fontFamily="@font/fredo_font"
+            android:text="Add faculty"
+            android:textColor="#303F9F"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/buttonViewstudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="386dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#FFFDFE"
+        android:fontFamily="@font/fredo_font"
+        android:text="View student"
+        android:textColor="#303F9F"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#FFFDFE"
+        android:fontFamily="@font/fredo_font"
+        android:text="Logout"
+        android:textColor="#303F9F"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonviewfaculty"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#FFFDFE"
+        android:fontFamily="@font/fredo_font"
+        android:text="View faculty"
+        android:textColor="#303F9F"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonaddstudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="281dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#FFFDFE"
+        android:fontFamily="@font/fredo_font"
+        android:text="Add student"
+        android:textColor="#303F9F"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/attendancePerStudentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="593dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#FFFDFE"
+        android:fontFamily="@font/fredo_font"
+        android:text="Attendance Of Student"
+        android:textColor="#303F9F"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="377dp"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/roundedtextview"
+        android:backgroundTint="#303F9F"
+        android:fontFamily="@font/fredo_font"
+        android:gravity="center"
+        android:text="Attendance Tracker"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+</RelativeLayout>
